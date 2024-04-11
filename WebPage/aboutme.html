@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        .container { width: 90%; max-width: 800px; margin: auto; }
+        hr { border: 2px solid #000;}
+        .header { display: flex; justify-content: space-between; align-items: center; }
+        .header p { margin: 0; text-align: center; font-size: 30px;}
+        .header span { font-weight: 800; text-transform: uppercase;}
+        .header img { width: 200px; border-radius: 100px; height: 200px; }
+        .info div { padding: 10px 0; font-size: 30px; }
+        .info span { font-weight: 800; text-transform: uppercase; }
+        @media screen and (max-width: 700px) { .header { flex-direction: column; } .header p { order: 1; font-size: 25px; }
+            .info div { font-size: 25px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="header">
+             <p><span>Name:</span> Vhelmar A. Fernandez</p>
+             <img src="./IMG20210726130420.jpg" alt="My Photo" />
+         </div>
+         <hr />
+         <div class="info">
+            <div><span>Course/Year:</span> BSCS-3B</div>
+            <div><span>Age:</span> 23</div>
+            <div><span>Gender:</span> Male</div>
+            <div><span>Address:</span> Purok 2 Oteiza, San Agustin Surigao del Sur</div>
+         </div>
+         <hr />
+    </div>
+</body>
+</html>
